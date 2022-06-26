@@ -20,7 +20,6 @@ function agregarPropiedad(objeto, propiedad) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "propiedad" (una cadena/string)
   // Tu código:
-  // objeto.propiedad = null;
   objeto[`${propiedad}`] = null;
   return objeto;
 }
@@ -30,9 +29,8 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // No necesita un 'return'
   // Tu código:
-
+  objeto[`${metodo}`]();
 }
-
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
