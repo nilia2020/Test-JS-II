@@ -83,12 +83,12 @@
 // console.log(user.usuario);
 // console.log(user.saludar());
 
-String.prototype.reverse = function () {
-  return String([...this].reverse().join(""));
-};
-let str = "Hello";
+// String.prototype.reverse = function () {
+//   return String([...this].reverse().join(""));
+// };
+// let str = "Hello";
 
-let arr = [...str];
+// let arr = [...str];
 
-console.log(String(arr.reverse().join("")));
-console.log(str.reverse());
+// console.log(String(arr.reverse().join("")));
+// console.log(str.reverse());
